@@ -1,5 +1,5 @@
 # Eye Movement-Controlled Wheelchair using VOG Technology
-
+![VOG_MOBILITY](photo)
 This project uses Video-oculography (VOG) technology to detect eye movements from a live video feed. The system processes the video to detect eye coordinates, compares them between frames, and determines the direction of eye movement. Based on the detected movement, a signal is sent to a microcontroller that controls an electric wheelchair. For example, if the user moves their eyes to the left, the wheelchair moves to the left, and so on.
 
 ## Table of Contents
