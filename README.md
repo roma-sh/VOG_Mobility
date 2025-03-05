@@ -1,6 +1,9 @@
 # Eye Movement-Controlled Wheelchair using VOG Technology
-![VOG_MOBILITY](https://github.com/roma-sh/VOG_Mobility/blob/master/img/VOG_Mobility.jpg)
+![VOG_MOBILITY](https://github.com/roma-sh/VOG_Mobility/blob/master/img/VOG_Mobility_cover.jpg)
+
 This project uses Video-oculography (VOG) technology to detect eye movements from a live video feed. The system processes the video to detect eye coordinates, compares them between frames, and determines the direction of eye movement. Based on the detected movement, a signal is sent to a microcontroller that controls an electric wheelchair. For example, if the user moves their eyes to the left, the wheelchair moves to the left, and so on.
+
+![VOG_MOBILITY](https://github.com/roma-sh/VOG_Mobility/blob/master/img/VOG_Mobility.jpg)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -9,7 +12,8 @@ This project uses Video-oculography (VOG) technology to detect eye movements fro
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Structure](#code-structure)
-- [Contributing](#contributing)
+- [Circuit Diagram](#Circuit-Diagram)
+- [Components](#Components)
 
 ## Overview
 The project is designed to assist individuals with limited mobility by enabling them to control an electric wheelchair using eye movements. The system captures video frames, processes them to detect eye positions, and determines the direction of eye movement. Based on the detected movement, the system sends appropriate control signals to the wheelchair's microcontroller.
@@ -49,12 +53,17 @@ The project is designed to assist individuals with limited mobility by enabling 
 - `setupVideoCapture.m`: Initializes the video capture object.
 - `cleanup.m`: Cleans up resources after processing.
 
-## Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes.
-4. Submit a pull request.
+## Circuit Diagram
+
+![Circuit Diagram](https://github.com/roma-sh/VOG_Mobility/blob/master/img/Circuit_design.jpg)
+
+### Components:
+- Arduino (e.g., Arduino Uno)
+- L298N Motor Driver
+- 2 DC Motors
+- Power Supply (12V)
+- Jumper wires
+- Breadboard (optional)
 
 
 ---
